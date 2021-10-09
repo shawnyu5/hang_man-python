@@ -27,4 +27,12 @@ _ _ _ _ _ _ _
 
 * `validate_guess()` - validate user guess
 
-* `end_game()` - determine if we should end game right now
+* `end_game()` - determine if we should end game right now. Return True if game
+should end now, false if it shouldn't
+
+   * Game will end if user has gotten all letters correct. No underscores in
+   `guess_list`
+
+  
+
+

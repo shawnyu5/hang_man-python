@@ -1,9 +1,7 @@
+from random import shuffle
+
 list = [1, 2, 3, 4]
-
-# if not list.index(8):
-    # print("nooo")
-
-list[0] = None
-
+shuffle(list)
 print(list)
+
 
