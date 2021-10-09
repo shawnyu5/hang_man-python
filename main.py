@@ -23,9 +23,14 @@ class HangMan:
         self.display()
 
     def display(self):
-        print("Number of guesses:", self.amount_of_guesses)
-        number_of_underscores = len(self.correct_word)
-          
+        # number of attempts left
+        # the hang man letter squence
+        # apple
+        # _ _ _ _ _
+        print("the correct word:", self.correct_word)
+        print("number of guesses:", self.amount_of_guesses)
+        print("Number of hints", self.amount_of_hints)
+
 
 def main():
     hangMan = HangMan("apple")
