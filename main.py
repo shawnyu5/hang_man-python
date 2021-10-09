@@ -11,31 +11,30 @@ class HangMan:
     def getHints(self):
         valid = False
         while valid == False:
-          self.amount_of_hints = int(input("Number of hints: "))
-          if self.amount_of_hints < self.amount_of_guesses:
+            self.amount_of_hints = int(input("Number of hints: "))
+        if self.amount_of_hints < self.amount_of_guesses:
             valid = True
-            return
-          print("Too many hints!!!")
+        return
+        print("Too many hints!!!")
 
     def play(self):
-      self.getGuesses()
-      self.getHints()
-      self.display()
+        self.getGuesses()
+        self.getHints()
+        self.display()
 
     def display(self):
-      # number of attempts left
-      # the hang man letter squence
-      # apple
-      # _ _ _ _ _
-      print("the correct word:", self.correct_word)
-      print("number of guesses:", self.amount_of_guesses)
-      print("Number of hints", self.amount_of_hints)
+        # number of attempts left
+        # the hang man letter squence
+        # apple
+        # _ _ _ _ _
+        print("the correct word:", self.correct_word)
+        print("number of guesses:", self.amount_of_guesses)
+        print("Number of hints", self.amount_of_hints)
 
 
 def main():
     hangMan = HangMan("apple")
     hangMan.play()
-
 
 if __name__ == "__main__":
     main()
