@@ -1,5 +1,13 @@
 # Planning
 
+## Member variables
+
+* `correct_word` will be stored as a list for easy parsing
+
+* `guess_list` is the list that is displayed to the user
+
+## Member functions
+
 * `display()`:
 
    * the number of attempts **left**
@@ -19,4 +27,4 @@ _ _ _ _ _ _ _
 
 * `validate_guess()` - validate user guess
 
-
+* `end_game()` - determine if we should end game right now

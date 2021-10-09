@@ -1,9 +1,9 @@
-# for i in range(1, 10):
-    # print(i)
+list = [1, 2, 3, 4]
 
-number = 10
-for i in range(1, number):
-    print(number)
-# for every number between 1 and 10, we assign it to i, and we print it(i)
+# if not list.index(8):
+    # print("nooo")
 
+list[0] = None
+
+print(list)
 
