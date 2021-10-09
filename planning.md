@@ -1,6 +1,6 @@
 # Planning
 
-`display()`:
+* `display()`:
 
    * the number of attempts **left**
 
@@ -14,5 +14,9 @@ Number of attemps: x
 
 _ _ _ _ _ _ _
 ```
+
+* `get_game_guess()` - gets a guess
+
+* `validate_guess()` - validate user guess
 
 
